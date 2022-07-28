@@ -1,0 +1,122 @@
+<html><head><meta charset="utf-8"></head><body>
+
+
+
+    
+    <script language="Javascript">
+        document.oncontextmenu = new Function("event.returnValue=false");
+        document.onselectstart = new Function("event.returnValue=false");
+    </script>
+
+    <title>白逸导航网 - 个人</title>
+    <meta name="description" content="一个简单的导航页面">
+    <meta name="keywords" content="引导页源码|博客引导单页|单页|引导页|引导页单页|单页源码">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        .mom {
+            display: none;
+        }
+
+        @media only screen and (max-width:450px) {
+            .mom {
+                display: block;
+            }
+
+            .cn {
+                color: #f00;
+                font-weight: bold;
+            }
+    </style>
+
+ 
+
+
+
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main">
+            <header>
+                <span class="avatar" "=""><img style=" width: 100px;" src="http://q.qlogo.cn/headimg_dl?dst_uin=1773635614&amp;spec=640" alt=""></span>
+                <a href="#">
+                    <h1>白逸个人导航</h1>
+                </a>
+                <p>科学刀：白逸 (UID: 48213)</p>
+                <form name="form1">
+
+
+                    <a href="#">
+                        <div align="center" style="background-color:#9ae2e5;">
+
+                            请把此网址添加浏览器书签 方便您下次访问 以防失联
+                        </div>
+                    </a>
+                    <p>
+                    </p><div>
+                        <div class="">
+                            <p id="hitokoto">:D 获取中...</p>
+                            <script src="js/index.js" defer=""></script>
+                        </div>
+                    </div>
+                    <p></p>
+                </form>
+
+            </header>
+
+            <footer>
+                <ul class="icons">
+                <li><a target="_blank" href="https://imxcy.cn/" title="自助授权站1">页面1</a></li>
+                <li><a target="_blank" href="https://imxcy.cn/" title="自助授权站2">页面2</a></li>
+                <li><a target="_blank" href="https://imxcy.cn/" title="自助授权站3">页面3</a></li>
+                <li><a target="_blank" href="https://imxcy.cn/" title="自助授权站3">页面4</a></li>   
+                    
+                </ul>
+
+            </footer>
+
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+                <span style="color:#ffffff;">当前IP:
+                    <script>
+                        document.write(returnCitySN["cip"])
+                    </script>
+                </span>
+				<li><a target="_blank" href="https://beian.miit.gov.cn/">ICP备案号: 苏ICP备00000000号-01</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function () {
+                document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+            });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/su.js"></script>
+    <!-- 雪花特效 -->
+    <script src="js/snowy.js"></script>
+    <style type="text/css">
+        .snow-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100001;
+        }
+    </style>
+    <div class="snow-container"></div>
+
+
+</body></html>
